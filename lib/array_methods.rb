@@ -31,5 +31,7 @@ famous_cats.last
 end
 
 def using_size(array)
-
+colors = ["red' orange", "yellow", "Maru"]
+famous_cats.size
+  => 3
 end
