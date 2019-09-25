@@ -1,37 +1,37 @@
 def using_include(array, element)
-famous_cats = ["lil' bub", "grumpy cat", "Maru"]
-famous_cats.include?("Garfield")
+colors = ["red", "orange", "yellow"]
+colors.include?("purple")
   => false
-famous_cats.include?("Maru")
+colors.include?("yellow")
   => true
 end
 
 def using_sort(array)
-famous_cats = ["lil' bub", "grumpy cat", "maru"]
-famous_cats.sort
-  => ["grumpy cat", "lil' bub", "maru"]
+colors = ["red", "orange", "yellow"]
+colors.sort
+  => ["orange", "red", "yellow"]
 end
 
 def using_reverse(array)
-famous_wizards = ["Dumbledore", "Gandalf", "Merlin"]
-famous_wizards.reverse
-  => ["Merlin", "Gandalf", "Dumbledore"]
+colors = ["red", "orange", "yellow"]
+colors.reverse
+  => ["yellow", "orange", "red"]
 end
 
 def using_first(array)
-famous_cats = ["lil' bub", "grumpy cat", "Maru"]
-famous_cats.first
-  => "lil' bub"
+colors = ["red", "orange", "yellow"]
+colors.first
+  => "red"
 end
 
 def using_last(array)
-famous_cats = ["lil' bub", "grumpy cat", "Maru"]
-famous_cats.last
-  => "Maru"
+colors = ["red", "orange", "yellow"]
+colors.last
+  => "yellow"
 end
 
 def using_size(array)
-colors = ["red' orange", "yellow", "Maru"]
-famous_cats.size
+colors = ["red' orange","yellow"]
+colors.size
   => 3
 end
