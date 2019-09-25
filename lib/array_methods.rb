@@ -19,7 +19,9 @@ famous_wizards.reverse
 end
 
 def using_first(array)
-
+famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+famous_cats.first
+  => "lil' bub"
 end
 
 def using_last(array)
